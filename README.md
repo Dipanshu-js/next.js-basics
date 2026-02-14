@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <br />
+  <img src="public/next.svg" alt="Next.js Banner" width="200">
+  <br />
+  <h3 align="center">Next.js 16 Full-Stack Dashboard</h3>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- **[Next.js 16](https://nextjs.org/docs)** – Modern React framework supporting App Router, Server Components, and API routes.
+- **[React.js](https://react.dev/)** – Component-based UI library for building interactive web apps.
+- **[Tailwind CSS](https://tailwindcss.com/docs/installation)** – Utility-first CSS framework for rapid and responsive UI development.
+- **[Picsum Photos](https://picsum.photos/)** – Free placeholder image service used for albums and user avatars.
+- **[TypeScript](https://www.typescriptlang.org/)** – Adds static type checking for safer and maintainable code.
+
+---
+
+## <a name="features">🔋 Features</a>
+
+- **Dynamic Dashboard**: View a list of users with interactive cards.
+- **User Details Page**: Click on a user to see their details without refetching data.
+- **Albums Page**: Display albums with dynamic images from Picsum API.
+- **Server and Client Components**: Optimized data fetching and interactivity.
+- **API Routes**: Example serverless endpoints for users.
+- **Tailwind Styling**: Beautiful gradient backgrounds, hover effects, responsive layouts.
+- **Error Page**: Custom 404 / fallback error page.
+- **Navbar**: Clean responsive navigation.
+
+---
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+**Prerequisites**
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+**Clone the Repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/nextjs-dashboard.git
+cd nextjs-dashboard
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
