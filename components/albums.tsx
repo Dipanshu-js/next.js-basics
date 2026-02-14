@@ -1,5 +1,4 @@
 async function Albums() {
-  // Fetch from Picsum API
   const response = await fetch(
     "https://picsum.photos/v2/list?page=1&limit=50",
     {
@@ -14,10 +13,9 @@ async function Albums() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 to-indigo-800 p-8">
       <h1 className="text-3xl font-bold text-white mb-8 text-center">
-        Pinterest Gallery 📌
+        Gallery 📌
       </h1>
 
-      {/* Pinterest Masonry Layout */}
       <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-5 gap-4 space-y-4">
         {photos.map(
           (photo: { id: string; author: string; download_url: string }) => (

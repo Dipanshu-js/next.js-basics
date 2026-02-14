@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="public/next.svg" alt="Next.js Banner" width="200">
+  <img src="public/next.svg" alt="Next.js Banner" width="200" style="background-color: white; padding: 20px; border-radius: 12px;">
   <br />
   <h3 align="center">Next.js 16 Full-Stack Dashboard</h3>
 </div>
